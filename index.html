@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>TIC TAC TOE - The Odin project</title>
+</head>
+<body>
+    <header>
+        <h1>TIC TAC TOE</h1>
+    </header>
+    
+    <main>
+        <div class="players">
+            <h2>Enter Your username</h2>
+            <div class="player1">
+                <label for="player-one-name" >Player 1?  </label>
+                <input type="text" placeholder="Player 1" id="player-one-name">
+            </div>
+            <div class="player2">
+                <label for="player-two-name">Player 2?  </label>
+                <input type="text" placeholder="Player 2" id="player-two-name">
+            </div>
+            <button type="button" id="new-game-btn">New game!</button>
+            <button type="button" id="restart-game-btn" >Restart</button>
+        </div>
+        <div id="gameBoard"></div>
+        <div id="message"></div>
+    </main>
+    <script src="script.js" ></script>
+</body>
+</html>
