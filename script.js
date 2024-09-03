@@ -114,6 +114,7 @@ const Game = (() => {
         Gameboard.render();
         document.querySelector('#message').innerHTML = '';
         gameOver = false;
+        currentPlayerIndex = 0;
     }
 
     return {
